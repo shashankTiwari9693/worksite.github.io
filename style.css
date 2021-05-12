@@ -80,3 +80,13 @@ border-radius:;
 .navbar li a:hover{
     color:tomato;
 }
+
+.logo{
+font:smaller;
+font-style: normal;
+color:whitesmoke;
+
+}
+.logo a:hover{
+    color:red;
+}
