@@ -1,0 +1,82 @@
+*{
+margin: 0px;
+padding:0px ;
+}
+body{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("pic.jpeg");
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;                                   
+background-position:center;
+font-family: cursive;
+
+
+}
+
+.hero
+{
+    font-size: medium;
+margin-left: 7%;
+margin-top:7%;   
+color: White;
+cursor: pointer;
+}
+#drone-box
+{
+    margin: 150px auto;
+    width:200px;
+    position: relative;
+    transition: 3s;
+}
+.drone-pic{
+    width:100%;
+}
+.left-pic{
+    width:80px;
+    top:0;
+    left:-11px;
+    position: absolute;
+    animation: rotation .2s linear infinite ;
+}
+
+.right-pic{
+    width:80px;
+    top:0;
+    right:-11px;
+    position: absolute;
+    animation: rotation .2s linear infinite ;
+}
+@keyframes rotation {
+    100%{
+        transform: rotateY(360deg);
+    }
+    
+}
+
+span{
+    color:red
+}
+.navbar
+{
+border-radius:;
+
+
+}
+.navbar li{
+   
+    float: right;
+    list-style: none;
+     margin:13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding:3px 3px;
+    text-decoration: none;
+    color:white;
+    
+}
+.navbar li a:hover{
+    color:tomato;
+}
